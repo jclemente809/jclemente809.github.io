@@ -1,0 +1,47 @@
+body {
+    background: url("images/barrel_image.png");
+    background-size: cover;
+
+}
+h1 {
+}
+
+h2 {
+	color: #FFC36B;
+}
+p {
+    color: #FFF;
+    font-family: Ubuntu,sans-serif;
+    font-weight: 100;
+    font-size: 25px
+    line-height: 1.2;
+    text-align: center
+    font-style: normal;
+}
+
+ul {
+	color: #FFF;
+    font-family: Ubuntu,sans-serif;
+    font-weight: 100;
+    font-size: 25px
+    line-height: 1.2;
+    text-align: center
+}
+
+#slogan {
+	color:#FFC36B;
+	font-size: 45px;
+	font-family: Ubuntu,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.6;
+    text-align: center;
+}
+#contact {
+	font-family: Muli,sans-serif;
+	font-size: 15px;
+    font-weight: 100;
+    font-style: normal;
+    line-height: 1;
+    text-align: center;
+}
