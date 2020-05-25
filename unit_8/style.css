@@ -1,0 +1,295 @@
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Garamond|Ubuntu);
+
+
+body {
+    font-size: 35px;
+    width: 100%;
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color:#370A80;
+    font-size: 1.9em;
+    font-weight: bolder;
+    font-family: 'Cormorant Garamond',serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1.2em;
+}
+
+h2 {
+    color: #370A80;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.5em;
+    line-height: 1.2em;
+    text-align: center;
+    letter-spacing: 4px; 
+}
+
+p {
+    color: #370A80;;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: .6em;
+    line-height: 1.3em;
+    text-align: center;
+
+}
+
+ul {
+    list-style-type: none;
+    font-size: .7em;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10%;
+}
+li {
+    text-align: left;
+    margin: .55em;
+    line-height: 1em
+}
+
+a {
+    color: red;
+}
+
+/*li a {
+    display: inline;
+    padding: 1em 1em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .6em;
+    transition-duration: 0.2s;
+}
+
+li a:hover {
+    color: #370A80;
+}*/
+
+header {
+    width: 100%;
+}
+
+nav {
+    background-color: #697F80;
+    width: 100%;
+}
+
+footer {
+    background-color: #BCE5E6;
+    border: 1px black solid;
+    padding: .55em;
+}
+
+article {
+    background-color: #D0FEFF;
+    border: 1px black solid;
+    padding: .55em;
+}
+
+.header_wrap {
+    padding: 3em 1em;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.23)), url("images/new_hero.jpg")
+}
+.header_text {
+    padding-left: 30%;
+}
+
+.header_text p {
+    color: #6E14FF;
+    font-size: .8em;
+    text-align: left;
+    font-weight: 600;
+}
+
+.button_primary {
+  background-color: #344040;
+  border-color: #000;
+  border-width: 1px;
+  color: white;
+  padding: 0.3em 0.8em;
+  text-align: center;
+  display: inline-block;
+  font-size: 0.7em;
+  transition-duration: 0.2s
+}
+
+.button_primary:hover {
+    background-color: #fff;
+    color: #370A80;
+}
+
+.button_secondary {
+  background-color: #fff;
+  border-color: #fff;
+  border-width: 1px;
+  color: #370A80;
+  padding: 0.3em 0.8em;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: inline-block;
+  font-size: 0.7em;
+  transition-duration: 0.2s;
+}
+
+.button_secondary:hover {
+    background-color: #370A80;
+    color: #fff;
+}
+
+
+.top_nav a {
+    float: left;
+    text-align: left;
+    margin: .55em;
+    line-height: 1em;
+    display: inline;
+    padding: 1em 1em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .6em;
+    transition-duration: 0.2s;
+}
+
+.top_nav a:hover {
+    color: #370A80;
+}
+
+.nav_logo {
+    width: 12em;
+}
+
+#two_column {
+    background-color: #344040;
+    width: 100%;
+    /*height: 10em;*/
+/*    border: 1px black solid;*/
+/*    padding: .55em;*/
+}
+
+#home_top_product_copy {
+    float: left;
+    width: 34%;
+/*    height: 100%;*/
+/*    border: 1px black solid;*/
+/*    padding: .55em;*/
+}
+
+#home_top_product_copy h2 {
+    padding: 0em 1em;
+    color: #fff;
+}
+#home_top_product_copy p {
+    color: #fff;
+    padding: 1em 1em;
+    line-height: 1.5em;
+    text-align: left;
+
+}
+
+.topbottleimg {
+    width: 29.33%;
+    margin: .5%;
+    padding: 0% 1%;
+    transition-duration: 0.2s;
+    /*height: 10em;*/
+}
+
+.topbottleimg:hover {
+    opacity: 0.7;
+}
+
+#home_top_bottles {
+    background-color: #344040;
+/*    border: 1px black solid;*/
+/*    padding: .55em;*/
+    float: right; 
+    position: relative;  
+    width: 66%;
+
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#contact {
+	font-family: 'Ubuntu',sans-serif;
+	font-size: .45em;
+    font-weight: 100;
+    font-style: normal;
+    line-height: .45em;
+    text-align: center;
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1140px) {
+    .header_text {
+        padding-left: 10%;
+    }
+}
+
+@media only screen and (min-width: 740px) and (max-width: 980px) {
+    .header_text {
+        padding-left: 10%;
+    }
+    .top_nav a {
+        float: none;
+        margin: 0em;
+        padding-left: 10px;
+    }
+    #home_top_product_copy {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #home_top_bottles {
+        float: none;
+        width: 100%;
+    }
+    .button_secondary {
+        left: 0%;
+    }
+
+}
+
+@media only screen and (max-width: 740px) {
+    body {
+        font-size: 25px;
+    }
+
+    .header_text {
+        padding-left: 0%;
+    }
+
+    .top_nav a {
+        float: none;
+        margin: 0em;
+        padding-left: 10px;
+    }
+    #home_top_product_copy {
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    #home_top_bottles {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .button_secondary {
+        left: 0%;
+    }
+}
+
